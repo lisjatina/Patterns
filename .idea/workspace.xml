@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="650cddf1-4362-4e24-9df2-781722137939" name="Changes" comment="Factory creational pattern implemented">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Adapter/AdapterHrToDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Adapter/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Adapter/DatabaseManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Adapter/HRApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Composite/Shift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Composite/Team.java" afterDir="false" />
+    <list default="true" id="650cddf1-4362-4e24-9df2-781722137939" name="Changes" comment="Adapter and composite patterns implemented">
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Observer/FreeSpotSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Observer/HostitalRegistrationSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Observer/Observed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Observer/Subscriber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,13 +58,26 @@
       <recent name="C:\Users\37126\IdeaProjects\Patterns\src\StructuralPatterns\Composite" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Shift">
+  <component name="RunManager" selected="Application.FreeSpotSearch">
     <configuration name="DatabaseManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Adapter.DatabaseManager" />
       <module name="Patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="StructuralPatterns.Adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FreeSpotSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BehavioralPatterns.Observer.FreeSpotSearch" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BehavioralPatterns.Observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,6 +113,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FreeSpotSearch" />
         <item itemvalue="Application.Shift" />
         <item itemvalue="Application.DatabaseManager" />
         <item itemvalue="Application.Hospital" />
@@ -116,7 +128,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673523156045</updated>
-      <workItem from="1673523157242" duration="7300000" />
+      <workItem from="1673523157242" duration="10048000" />
     </task>
     <task id="LOCAL-00001" summary="Factory creational pattern implemented">
       <created>1673526845760</created>
@@ -125,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673526845760</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adapter and composite patterns implemented">
+      <created>1673538008619</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673538008619</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +152,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Factory creational pattern implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Factory creational pattern implemented" />
+    <MESSAGE value="Adapter and composite patterns implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adapter and composite patterns implemented" />
   </component>
 </project>
