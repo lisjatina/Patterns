@@ -1,4 +1,4 @@
-package StructuralPatterns.Adapter;
+package structuralPatterns.adapter;
 
 public class HRApplication {
 

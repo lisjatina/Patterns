@@ -1,4 +1,4 @@
-package StructuralPatterns.Adapter;
+package structuralPatterns.adapter;
 
 public class DatabaseManager {
     public static void main(String[] args) {

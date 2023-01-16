@@ -4,12 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="650cddf1-4362-4e24-9df2-781722137939" name="Changes" comment="Observer pattern implemented">
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Template/PageTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Template/PersonalsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Template/ServicesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Template/WebSiteRunner.java" afterDir="false" />
+    <list default="true" id="650cddf1-4362-4e24-9df2-781722137939" name="Changes" comment="refactor">
+      <change afterPath="$PROJECT_DIR$/src/structuralPatterns/composite/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralPatterns/composite/Optometrist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralPatterns/composite/Surgeon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralPatterns/Observer/FreeSpotSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioralPatterns/observer/FreeSpotSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralPatterns/Observer/HostitalRegistrationSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioralPatterns/observer/HostitalRegistrationSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralPatterns/Observer/Observed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioralPatterns/observer/Observed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralPatterns/Observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioralPatterns/observer/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralPatterns/Observer/Subscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioralPatterns/observer/Subscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralPatterns/Template/PageTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioralPatterns/template/PageTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralPatterns/Template/PersonalsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioralPatterns/template/PersonalsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralPatterns/Template/ServicesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioralPatterns/template/ServicesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralPatterns/Template/WebSiteRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioralPatterns/template/WebSiteRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/Adapter/AdapterHrToDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/adapter/AdapterHrToDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/Adapter/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/adapter/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/Adapter/DatabaseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/adapter/DatabaseManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/Adapter/HRApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/adapter/HRApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/Composite/Shift.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/composite/Shift.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/Composite/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/composite/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalPattern/factory/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalPattern/factory/Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalPattern/factory/DoctorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalPattern/factory/DoctorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalPattern/factory/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalPattern/factory/Hospital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalPattern/factory/Optometrist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalPattern/factory/Optometrist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalPattern/factory/OptometristDoctorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalPattern/factory/OptometristDoctorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalPattern/factory/Surgeon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalPattern/factory/Surgeon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalPattern/factory/SurgeonDoctorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalPattern/factory/SurgeonDoctorFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +65,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/37126/IdeaProjects/Patterns/src/StructuralPatterns/Composite",
+    "last_opened_file_path": "C:/Users/37126/IdeaProjects/patterns/src/structuralPatterns/composite",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,11 +80,11 @@
   </component>
   <component name="RunManager" selected="Application.WebSiteRunner">
     <configuration name="DatabaseManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Adapter.DatabaseManager" />
+      <option name="MAIN_CLASS_NAME" value="structuralPatterns.adapter.DatabaseManager" />
       <module name="Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StructuralPatterns.Adapter.*" />
+          <option name="PATTERN" value="structuralPatterns.adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,11 +93,11 @@
       </method>
     </configuration>
     <configuration name="FreeSpotSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BehavioralPatterns.Observer.FreeSpotSearch" />
+      <option name="MAIN_CLASS_NAME" value="behavioralPatterns.observer.FreeSpotSearch" />
       <module name="Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BehavioralPatterns.Observer.*" />
+          <option name="PATTERN" value="behavioralPatterns.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,11 +119,11 @@
       </method>
     </configuration>
     <configuration name="Shift" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Composite.Shift" />
+      <option name="MAIN_CLASS_NAME" value="structuralPatterns.composite.Shift" />
       <module name="Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StructuralPatterns.Composite.*" />
+          <option name="PATTERN" value="structuralPatterns.composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +132,11 @@
       </method>
     </configuration>
     <configuration name="WebSiteRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BehavioralPatterns.Template.WebSiteRunner" />
+      <option name="MAIN_CLASS_NAME" value="behavioralPatterns.template.WebSiteRunner" />
       <module name="Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BehavioralPatterns.Template.*" />
+          <option name="PATTERN" value="behavioralPatterns.template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,6 +163,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673523156045</updated>
       <workItem from="1673523157242" duration="11969000" />
+      <workItem from="1673862298206" duration="2276000" />
     </task>
     <task id="LOCAL-00001" summary="Factory creational pattern implemented">
       <created>1673526845760</created>
@@ -174,6 +196,7 @@
     <MESSAGE value="Factory creational pattern implemented" />
     <MESSAGE value="Adapter and composite patterns implemented" />
     <MESSAGE value="Observer pattern implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Observer pattern implemented" />
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
 </project>

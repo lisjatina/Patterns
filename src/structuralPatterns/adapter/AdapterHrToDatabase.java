@@ -1,4 +1,4 @@
-package StructuralPatterns.Adapter;
+package structuralPatterns.adapter;
 
 public class AdapterHrToDatabase extends HRApplication implements Database {
     @Override

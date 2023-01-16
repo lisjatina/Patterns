@@ -1,4 +1,4 @@
-package BehavioralPatterns.Observer;
+package behavioralPatterns.observer;
 
 public interface Observed {
 

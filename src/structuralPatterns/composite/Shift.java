@@ -1,8 +1,4 @@
-package StructuralPatterns.Composite;
-
-import CreationalPattern.Factory.Doctor;
-import CreationalPattern.Factory.Optometrist;
-import CreationalPattern.Factory.Surgeon;
+package structuralPatterns.composite;
 
 public class Shift {
 
@@ -19,5 +15,4 @@ public class Shift {
 
         team.createShift();
     }
-
 }

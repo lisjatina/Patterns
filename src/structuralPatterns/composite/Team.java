@@ -1,5 +1,4 @@
-package StructuralPatterns.Composite;
-import CreationalPattern.Factory.Doctor;
+package structuralPatterns.composite;
 
 import java.util.ArrayList;
 import java.util.List;

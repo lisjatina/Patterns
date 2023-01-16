@@ -1,4 +1,4 @@
-package BehavioralPatterns.Template;
+package behavioralPatterns.template;
 
 public class ServicesPage extends PageTemplate{
     @Override
